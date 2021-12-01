@@ -1,0 +1,23 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid black;
+    padding:0px 0 20px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.navBar li{
+    font-weight: bold;
+    text-decoration: none;
+    
+    margin:5px;
+    float: left;
+    text-decoration: none;
+    color:red;
+}

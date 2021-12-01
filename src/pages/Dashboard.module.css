@@ -1,0 +1,17 @@
+.dashboardContainer{
+    text-align: center;
+}
+
+.dashboardContainer ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.dashboardContainer li{
+    cursor:pointer;
+    font-weight: bold;
+    margin:10px;
+    font-size: 20px;
+    list-style: none;
+}
