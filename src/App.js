@@ -7,15 +7,15 @@ import UserContextProvider from './context/UserContext';
 
 function App() {
   return (
-    <Layout>
-      <UserContextProvider>
-        <Routes>
-          <Route path={"/"} element={<Dashboard />}></Route>
-          <Route path={"/about"} element={<About />}></Route>
-          <Route path={"/planet/:idx"} element={<Planet />}></Route>
-        </Routes>
-      </UserContextProvider>
-    </Layout>
+    <UserContextProvider>
+      <Layout>
+          <Routes>
+            <Route path={"/"} element={<Dashboard />}></Route>
+            <Route path={"/about"} element={<About />}></Route>
+            <Route path={"/planet/:idx"} element={<Planet />}></Route>
+          </Routes>
+      </Layout>
+    </UserContextProvider>
   );
 }
 

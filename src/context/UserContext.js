@@ -1,15 +1,11 @@
 import React, { createContext, useState } from 'react'
 
 
-const defaultContext = {
-    name: 'Juan'
-}
-
-export const UserContext = createContext(defaultContext)
+export const UserContext = createContext()
 
 const UserContextProvider = ({ children }) => {
 
-    const [name, setName] = useState('Pablo')
+    const [name, setName] = useState('Mando')
 
     const value = {
         name,

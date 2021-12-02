@@ -10,7 +10,7 @@ const UserBlock = () => {
     
     return (
         <div className={Styles.userBlock}>
-            Iniciaste sesión como: {'Pepe'}
+            Iniciaste sesión como: {name}
         </div>
     )
 }
